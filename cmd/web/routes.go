@@ -10,7 +10,9 @@ import (
 // return New PatternServeMux, see comment below
 func newMux() http.Handler {
 	mux := pat.New()
+	fileServer := http.FileServer(http.Dir("./static/"))
 
+	mux.Get("/static/", http.StripPrefix("/static", fileServer))
 	mux.Get("/", http.HandlerFunc(handlers.Home))
 	mux.Get("/ws", http.HandlerFunc(handlers.WsEndpoint))
 
