@@ -2,8 +2,14 @@
 
 Prewords: This is my repository for my gorilla websocket learning.
 
-github.com/bmizerany/pat
-github.com/CloudyKit/jet/v6
-https://github.com/gorilla/websocket
-https://github.com/joewalnes/reconnecting-websocket
-https://github.com/jaredreich/notie
+Dependency:
+[Golang Websocket Protocol](https://github.com/gorilla/websocket))
+[multiplexing](https://github.com/bmizerany/pat)
+[HTML templates](https://github.com/CloudyKit/jet/v6)
+[Js websocket for client with automatically reconnect]([https://github.com/bmizerany/pat](https://github.com/joewalnes/reconnecting-websocket))
+[Beautiful notify](https://github.com/jaredreich/notie)
+
+
+
+
+
