@@ -1,6 +1,6 @@
 # goWebSocket
 
-Prewords: This is my repository for my gorilla websocket learning.
+Prewords: This is my repository for my gorilla websocket learning. The project about building a chatbox using websocket protocol.
 
 Dependency:
 - [Golang Websocket Protocol](https://github.com/gorilla/websocket)
